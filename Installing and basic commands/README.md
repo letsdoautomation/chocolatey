@@ -1,3 +1,8 @@
+### Documentation and download
+Download: [chocolatey](https://chocolatey.org/install) <br />
+Documentation: [Documentation](https://docs.chocolatey.org/en-us/choco/commands/) <br />
+Repository: [Documentation](https://community.chocolatey.org/packages)
+
 Install software
 ```powershell
 choco install adobereader -y
