@@ -1,5 +1,5 @@
 ### Documentation and download
-Download: [chocolatey](https://chocolatey.org/install) <br />
+Download: [chocolatey.org](https://chocolatey.org/install) <br />
 Documentation: [Documentation](https://docs.chocolatey.org/en-us/choco/commands/) <br />
 Repository: [Repository](https://community.chocolatey.org/packages)
 
