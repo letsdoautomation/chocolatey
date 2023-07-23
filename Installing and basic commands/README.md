@@ -11,6 +11,10 @@ List installed software
 ```powershell
 choco list
 ```
+Update all choco packages
+```powershell
+choco upgrade all
+```
 Uninstall software
 ```powershell
 choco uninstall adobereader -y
