@@ -16,9 +16,19 @@ Documentation link:
     * [chocolatey-compatibility.extension](https://community.chocolatey.org/packages/chocolatey-compatibility.extension)
     * [All other packages](https://community.chocolatey.org/packages)
 
+Show repository list:
+```powershell
+choco source list
+```
+
 Add network share to repository list:
 ```powershell
 choco source add -n=local -s'\\srv02\packages'
+```
+
+Remove chocolatey community repository:
+```powershell
+choco source remove -n=chocolatey
 ```
 
 List available packages in network share:
