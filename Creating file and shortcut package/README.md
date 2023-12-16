@@ -1,7 +1,7 @@
 # Chocolatey: Creating file and shortcut package
 ### Documentation and download links
 
-* [choco new](https://docs.chocolatey.org/en-us/create/functions/install-chocolateyshortcut)
+* [install-chocolateyshortcut](https://docs.chocolatey.org/en-us/create/functions/install-chocolateyshortcut)
 
 <b>Objective: </b>
   
@@ -21,13 +21,13 @@ $files = Join-Path $tools -ChildPath 'files'
 <b>Copy files from package to computer:</b>
 
 ```powershell
-[System.IO.DirectoryInfo]$destination = "$($env:ProgramData)\letsdoautomation"
+[System.IO.DirectoryInfo]$destination = "$($env:ProgramData)\letsdoautomation\files"
 
 if(!$destination.Exists){
     $destination.Create()
 }
 
-gci $files | %{
+gci $files | % {
     cp $_.FullName "$($destination.FullName)\$($_.Name)" -Force
 }
 ```
@@ -39,7 +39,7 @@ $destination.GetFiles() | % {
     $shortcut = @{
         ShortcutFilePath = "C:\Users\Public\Desktop\$($_.BaseName).lnk"
         TargetPath       = $_.FullName 
-        IconLocation     = "shell32.dll,21"
+        IconLocation     = "shell32.dll,24"
     }
     Install-ChocolateyShortcut @shortcut
 }
@@ -53,5 +53,5 @@ $destination.GetFiles() | % {
 
 <b>Chocolatey:</b>
 
-[Chocolatey: Creating empty choco package]()
+[Chocolatey: Creating empty choco package]() <br />
 [Chocolatey: Installing and basic commands](https://youtu.be/vEH7t5eqJq4)
