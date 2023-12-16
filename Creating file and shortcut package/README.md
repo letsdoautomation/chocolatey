@@ -1,0 +1,57 @@
+# Chocolatey: Creating file and shortcut package
+### Documentation and download links
+
+* [choco new](https://docs.chocolatey.org/en-us/create/functions/install-chocolateyshortcut)
+
+<b>Objective: </b>
+  
+* Create package that deploys files
+* Create shortcuts
+
+# Creating package
+
+<b>Get package directory:</b>
+
+```powershell
+$ErrorActionPreference = 'Stop'
+$tools = Split-Path -Parent $MyInvocation.MyCommand.Definition
+$files = Join-Path $tools -ChildPath 'files'
+```
+
+<b>Copy files from package to computer:</b>
+
+```powershell
+[System.IO.DirectoryInfo]$destination = "$($env:ProgramData)\letsdoautomation"
+
+if(!$destination.Exists){
+    $destination.Create()
+}
+
+gci $files | %{
+    cp $_.FullName "$($destination.FullName)\$($_.Name)" -Force
+}
+```
+
+<b>Create file shortcuts</b>
+
+```powershell
+$destination.GetFiles() | % {
+    $shortcut = @{
+        ShortcutFilePath = "C:\Users\Public\Desktop\$($_.BaseName).lnk"
+        TargetPath       = $_.FullName 
+        IconLocation     = "shell32.dll,21"
+    }
+    Install-ChocolateyShortcut @shortcut
+}
+```
+
+## Related videos
+
+<b>Windows tools:</b>
+
+[Download and install NuGet Package Explorer](https://youtu.be/94u9jDCpifM)
+
+<b>Chocolatey:</b>
+
+[Chocolatey: Creating empty choco package]()
+[Chocolatey: Installing and basic commands](https://youtu.be/vEH7t5eqJq4)
