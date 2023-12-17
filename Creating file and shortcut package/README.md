@@ -32,7 +32,7 @@ gci $files | % {
 }
 ```
 
-<b>Create file shortcuts</b>
+<b>Create file shortcuts:</b>
 
 ```powershell
 $destination.GetFiles() | % {
@@ -43,6 +43,12 @@ $destination.GetFiles() | % {
     }
     Install-ChocolateyShortcut @shortcut
 }
+```
+
+<b>Install package:</b>
+
+```powershell
+choco install files -s D:\downloads -y
 ```
 
 ## Related videos
