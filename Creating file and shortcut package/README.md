@@ -48,7 +48,7 @@ $destination.GetFiles() | % {
 <b>Install package:</b>
 
 ```powershell
-choco install files -s D:\downloads -y
+choco install files -s D:\Downloads -y
 ```
 
 ## Related videos
