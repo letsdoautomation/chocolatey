@@ -22,7 +22,6 @@ choco new template
   <metadata>
     <id>template</id>
     <version>1.0.0</version>
-    <title>template (Install)</title>
     <authors>letsdoautomation</authors>
     <description>template</description>
   </metadata>
