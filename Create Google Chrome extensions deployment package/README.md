@@ -47,5 +47,5 @@ $registry.Dispose()
 
 <b>Chocolatey:</b>
 
-[Chocolatey](https://youtu.be/grueS3wnRNw)
+[Chocolatey](https://youtu.be/grueS3wnRNw) <br />
 [Chocolatey: Installing and basic commands](https://youtu.be/vEH7t5eqJq4)
