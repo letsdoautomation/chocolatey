@@ -38,3 +38,14 @@ else{
 
 $registry.Dispose()
 ```
+
+## Related videos
+
+<b>Windows tools:</b>
+
+[Download and install NuGet Package Explorer](https://youtu.be/94u9jDCpifM)
+
+<b>Chocolatey:</b>
+
+[Chocolatey](https://youtu.be/grueS3wnRNw)
+[Chocolatey: Installing and basic commands](https://youtu.be/vEH7t5eqJq4)
