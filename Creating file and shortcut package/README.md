@@ -1,4 +1,4 @@
-# Chocolatey: Creating file and shortcut package
+# Chocolatey: Debloy files and shortcuts package
 ### Documentation and download links
 
 * [install-chocolateyshortcut](https://docs.chocolatey.org/en-us/create/functions/install-chocolateyshortcut)
@@ -59,5 +59,5 @@ choco install files -s D:\Downloads -y
 
 <b>Chocolatey:</b>
 
-[Chocolatey](https://youtu.be/grueS3wnRNw) <br />
+[Chocolatey: Creating empty choco package](https://youtu.be/grueS3wnRNw) <br />
 [Chocolatey: Installing and basic commands](https://youtu.be/vEH7t5eqJq4)
