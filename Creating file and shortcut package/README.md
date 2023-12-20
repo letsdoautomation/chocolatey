@@ -10,17 +10,13 @@
 
 # Creating package
 
-<b>Get package directory:</b>
+<b>Copy files from package to computer:</b>
 
 ```powershell
 $ErrorActionPreference = 'Stop'
 $tools = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $files = Join-Path $tools -ChildPath 'files'
-```
 
-<b>Copy files from package to computer:</b>
-
-```powershell
 [System.IO.DirectoryInfo]$destination = "$($env:ProgramData)\letsdoautomation\files"
 
 if(!$destination.Exists){
