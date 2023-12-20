@@ -1,4 +1,4 @@
-# Chocolatey: Deploy files and shortcuts choco
+# Chocolatey: Deploy files and shortcuts with choco
 ### Documentation and download links
 
 * [install-chocolateyshortcut](https://docs.chocolatey.org/en-us/create/functions/install-chocolateyshortcut)
