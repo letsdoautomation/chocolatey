@@ -46,5 +46,10 @@ choco install telegram -s D:\Downloads -y
 
 <b>Chocolatey:</b>
 
-[Chocolatey](https://youtu.be/grueS3wnRNw)
+[Chocolatey: Creating empty choco package](https://youtu.be/grueS3wnRNw) <br />
 [Chocolatey: Installing and basic commands](https://youtu.be/vEH7t5eqJq4)
+
+<b>Windows Registry</b>
+
+[Windows Registry: Run and RunOnce](https://youtu.be/zgFzCq5uEPw) <br />
+[Windows Registry: Active Setup](https://youtu.be/HrVJ7wdvfmo)
