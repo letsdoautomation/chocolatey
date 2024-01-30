@@ -1,6 +1,6 @@
 # Chocolatey: Create Microsoft Edge settings package
 
-<b>Microsoft Edge settings pakcage:</b>
+<b>Microsoft Edge settings package:</b>
 
 * Install uBlock extension
 * Configure search engines
