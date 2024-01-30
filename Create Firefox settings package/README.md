@@ -1,6 +1,6 @@
 # Chocolatey: Create Firefox settings package
 
-<b>Firefox settings pakcage:</b>
+<b>Firefox settings package:</b>
 
 * Install uBlock extension
 * Customize Firefox home page
