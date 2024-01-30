@@ -1,6 +1,6 @@
 # Chocolatey: Create Brave Browser settings package
 
-<b>Brave Browser settings pakcage:</b>
+<b>Brave Browser settings package:</b>
 
 * Disable Brave Rewards
 * Disable Brave VPN
