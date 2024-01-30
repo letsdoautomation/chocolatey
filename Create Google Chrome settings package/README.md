@@ -1,6 +1,6 @@
 # Chocolatey: Create Google Chrome settings package
 
-<b>Google Chrome settings pakcage:</b>
+<b>Google Chrome settings package:</b>
 
 * Install uBlock extension
 * Disable Turn on an ad privacy feature message
