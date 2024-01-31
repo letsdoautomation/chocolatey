@@ -3,7 +3,7 @@
 <b>Google Chrome settings package:</b>
 
 * Install uBlock extension
-* Disable Turn on an ad privacy feature message
+* Disable "Turn on an ad privacy feature" message
 * Disable Privacy Sandbox Ad measurement
 * Disable Privacy Sandbox Ad topics
 * Disable Privacy Sandbox Site-suggested ads
