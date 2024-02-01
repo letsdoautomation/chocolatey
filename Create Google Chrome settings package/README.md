@@ -7,7 +7,7 @@
 * Disable Privacy Sandbox Ad measurement
 * Disable Privacy Sandbox Ad topics
 * Disable Privacy Sandbox Site-suggested ads
-* Disable Web Site NotificationsSetting
+* Disable Web Site Notifications
 
 
 <b>chocolateyinstall.ps1 snippet:</b>
