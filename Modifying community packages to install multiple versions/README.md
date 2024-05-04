@@ -12,7 +12,7 @@
 
 * Split single community package in multiple packages
 
-<b>Nodes:</b>
+<b>Nones:</b>
 
 * For this method to work you need to use private repository
 
