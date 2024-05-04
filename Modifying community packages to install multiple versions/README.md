@@ -8,11 +8,11 @@
 
 <img src="img/chat.png" width=40% height=40%>
 
-<b>Objectives:</b>
+<b>Objective:</b>
 
 * Split single community package in multiple packages
 
-<b>Nones:</b>
+<b>Note:</b>
 
 * For this method to work you need to use private repository
 
