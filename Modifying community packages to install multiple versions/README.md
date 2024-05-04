@@ -12,6 +12,10 @@
 
 * Split single community package in multiple packages
 
+<b>Nodes:</b>
+
+* For this method to work you need to use private repository
+
 ### Related videos:
 
 [Windows tools: Download and install NuGet Package Explorer](https://youtu.be/94u9jDCpifM) <br />
