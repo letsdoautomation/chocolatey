@@ -11,3 +11,8 @@
 <b>Objectives:</b>
 
 * Split single community package in multiple packages
+
+### Related videos:
+
+[Windows tools: Download and install NuGet Package Explorer](https://youtu.be/94u9jDCpifM)
+[Chocolatey video playlist](https://www.youtube.com/playlist?list=PLVncjTDMNQ4TMCZqT4EJEtOGzwj6pvQKl)
